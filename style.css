@@ -125,3 +125,9 @@ footer hr.line {
     opacity: unset;
     background-color: antiquewhite;
 }
+i.fa {
+    padding-right: 10px;
+}
+a:hover {
+    color: #231f20;
+}
