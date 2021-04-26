@@ -205,9 +205,10 @@ span.flow {
     padding-top: 162px;
 }
 
-#exampleInputEmail1 ::after{
-    color:#FFF;
-}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
 #Fname text{
     color:#FFF;
 }
@@ -217,3 +218,6 @@ span.flow {
     /* color: antiquewhite; */
     /* border: none; */
 }
+input::placeholder {
+    color: #AF4125!important;
+  }
