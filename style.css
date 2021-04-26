@@ -16,7 +16,7 @@ p.cstsec {
 }
 .secvideo{
     text-align: center;
-    height: 600px;
+    height: 100vh;
     background-image: url(backimg/slider.png);
     background-color: antiquewhite;
     padding: 1px 171px;
