@@ -221,3 +221,10 @@ span.flow {
 input::placeholder {
     color: #AF4125!important;
   }
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: antiquewhite;
+    outline: 0;
+    box-shadow: none;
+}
