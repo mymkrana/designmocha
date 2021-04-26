@@ -156,21 +156,21 @@ a:hover {
 .section.signup {
     height: 100vh;
     text-align: left;
-    padding: 100px 87px;
+    padding: 35px 87px;
     
 }
 .col-sm-6.center {
     background-image: url(backimg/signupbc.png);
    
    text-align: center;
-    height: 430px;
+    height: 500px;
     background-size: cover;
     color: antiquewhite;
 }
 .col-sm-6.form{
     
     
-    height: 430px;
+    height: 500px;
     background-color: #231F20;
 }
 label.fotmlab {
