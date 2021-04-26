@@ -25,6 +25,12 @@ p {
     background-image: url(backimg/sectionb.png);
     background-position: bottom;
 }
+.secvideo.b::after {
+    background-image: url(backimg/sectionb.png);
+    background-position: bottom;
+}
+
+
 
 .secvideo.c {
     background-image: url(backimg/sectionc.png);
@@ -130,4 +136,84 @@ i.fa {
 }
 a:hover {
     color: #231f20;
+}
+
+.section.signup {
+    height: 600px;
+    text-align: left;
+    padding: 87px;
+}
+.col-sm-6.center {
+    background-image: url(backimg/signupbc.png);
+   
+   text-align: center;
+    height: 430px;
+    background-size: cover;
+    color: antiquewhite;
+}
+.col-sm-6.form{
+    
+    
+    height: 430px;
+    background-color: #231F20;
+}
+label.fotmlab {
+    color: antiquewhite;
+    padding-top: 19px;
+}
+form {
+    padding: 76px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: unset;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #231f20;
+    background-clip: padding-box;
+    border-bottom: 1px solid #fae1af;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: unset;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+span.already {
+    color: #6D6E71;
+    padding-left: 45px;
+}
+button.btn.form {
+    color: #AF4125;
+    border: solid #AF4125;
+    border-radius: 40px;
+    padding: 3px 28px;
+}
+span.flow {
+    color:antiquewhite;
+    padding-left: 71px;
+}
+.sectionwel {
+    font-size: 40px;
+    padding-top: 162px;
+}
+
+#exampleInputEmail1 ::after{
+    color:#FFF;
+}
+#Fname text{
+    color:#FFF;
+}
+#exampleInputEmail1, #exampleInputPassword1 {
+    background-color: #231f20;
+    color: #AF4125;
+    /* color: antiquewhite; */
+    /* border: none; */
 }
