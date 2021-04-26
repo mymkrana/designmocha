@@ -1,24 +1,32 @@
 body {
     background-color: #DFD8CF;
 }
+@font-face { 
+    font-family: Athelas; src: url('font/Athelas.ttc'); 
+} 
 *{
     
-    font-family: Athelas, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Athelas;
 }
 p {
     font-size: 18px;
+}
+p.cstsec {
+    padding: 0px 125px;
 }
 .secvideo{
     text-align: center;
     height: 600px;
     background-image: url(backimg/slider.png);
     background-color: antiquewhite;
+    padding: 1px 171px;
+    display: table-cell;
+    vertical-align: middle;
     background-size: cover;
-    padding: 227px;
     color: #EAE1CB;
 }
 .secvideo h3 {
-    font-size: 41px;
+    font-size: 70px;
 }
 
 .secvideo.b {
@@ -43,10 +51,14 @@ p {
     padding-bottom: 50px;
     background-color: #DFD8CF;
 }
+.section.k {
+    
+    padding: 50px 220px;
+}
 .section.back {
     background-color: #231F20;
     color: #DFD8CF;
-    
+    padding: 50px 220px;
 }
 .btnsec.d{
     background-image: url(backimg/btnsec.png);
@@ -56,12 +68,15 @@ p {
 }
 .section.back h3 {
     font-size: 41px;
+    
 }
 .section h3{
     font-size: 36px;
+    font-weight: 600;
 }
 .sectionh4{
     font-size: 28px;
+    font-weight: 600;
 }
 a.btn {
     width: initial;
