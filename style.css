@@ -53,7 +53,7 @@ p.cstsec {
 }
 .section.k {
     
-    padding: 50px 220px;
+    padding: 80px 220px;
 }
 .section.back {
     background-color: #231F20;
@@ -154,9 +154,10 @@ a:hover {
 }
 
 .section.signup {
-    height: 600px;
+    height: 100vh;
     text-align: left;
-    padding: 87px;
+    padding: 100px 87px;
+    
 }
 .col-sm-6.center {
     background-image: url(backimg/signupbc.png);
@@ -258,4 +259,8 @@ i.cl:hover {
     margin-left: 26px;
     background-color: #231F20;
     font-size: 15px;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: none;
+    box-shadow: none;
 }
