@@ -156,7 +156,7 @@ a:hover {
 .section.signup {
     height: 100vh;
     text-align: left;
-    padding: 35px 87px;
+    padding: 40px 87px;
     
 }
 .col-sm-6.center {
@@ -169,8 +169,8 @@ a:hover {
 }
 .col-sm-6.form{
     
+    align-self: center;
     
-    height: 500px;
     background-color: #231F20;
 }
 label.fotmlab {
@@ -178,9 +178,8 @@ label.fotmlab {
     padding-top: 19px;
 }
 form {
-    padding: 76px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding: 0px 76px;
+    
 }
 .form-control {
     display: block;
@@ -214,11 +213,14 @@ button.btn.form {
 }
 span.flow {
     color:antiquewhite;
-    padding-left: 71px;
+    padding: 50px 71px;
+    display: flex;
 }
 .sectionwel {
-    font-size: 40px;
-    padding-top: 162px;
+    font-size: 60px;
+    
+    padding-top: 168px;
+    font-weight: 600;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -263,4 +265,8 @@ i.cl:hover {
 .btn-check:focus+.btn, .btn:focus {
     outline: none;
     box-shadow: none;
+}
+.row.itemcenter {
+    box-shadow: 9px 7px 4px rgb(10 9 9 / 54%);
+    background-color: #231f20;
 }
