@@ -270,3 +270,15 @@ i.cl:hover {
     box-shadow: 9px 7px 4px rgb(10 9 9 / 54%);
     background-color: #231f20;
 }
+
+
+.createprofile{
+    height: 100vh;
+    
+    background-color: #EAE1CB;
+}
+.profile2{
+    height: 100vh;
+   
+    background-color: #927734;
+}
