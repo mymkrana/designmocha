@@ -1,0 +1,21 @@
+.boxf {
+    padding: 34px;
+    background: #dfd8cf;
+    color: #231f20!important;
+}
+.card-header {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgb(223 216 207);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    /* color: antiquewhite; */
+}
+button.btn.btn-link {
+    color: #231f20!important;
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
